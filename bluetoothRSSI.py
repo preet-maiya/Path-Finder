@@ -9,8 +9,8 @@ y=[]
 elapsed = 0.0
 t1 = 0.0
 dist = 0.0
-if len(sys.argv)<1:
-	print "usage python bluetoothRSSI <address>"
+if len(sys.argv)<2:
+	print "usage: python bluetoothRSSI <address>"
 else:
     while 1:
         try:
